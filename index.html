@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Jeu Activite</title>
+	<link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Activité - Créez un jeu de plateau tour par tour en JavaScript </h1>
+		<section>
+			<!-- La Balise Canvas de taille fixe -->
+			<canvas id="canvas" width="500" height="500" >
+				<p>Désolé, votre navigateur ne supporte pas Canvas. Mettez-vous à jour </p>
+			</canvas>
+			<section id="menu-test" >
+				<input type="submit" value="top" onclick="arthur.moveTop()" />
+				<input type="submit" value="down" onclick="arthur.moveDown()" />
+				<input type="submit" value="right" onclick="arthur.moveRight()" />
+				<input type="submit" value="left" onclick="arthur.moveLeft()" />
+			</section>
+		</section>
+	<!-- Le Script -->
+	<script src="codage.js" ></script>
+</body>
+
+</html>
